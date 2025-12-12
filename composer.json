@@ -1,0 +1,14 @@
+{
+    "name": "i2401382/crepe-riz",
+    "autoload": {
+        "psr-4": {
+            "I2401382\\CrepeRiz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lilian"
+        }
+    ],
+    "require": {}
+}
