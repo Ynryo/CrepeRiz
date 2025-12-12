@@ -22,7 +22,7 @@
     </form>
 
 
-    <img src="assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
+    <img src="../assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
 
 </body>
 
