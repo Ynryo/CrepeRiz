@@ -1,6 +1,6 @@
 <?php
-
-function afficherCarte(){
+require_once "views/header.php";
+require_once "views/carteView.php";
 
     $file = "/assets/documents/Carte_Crepe-riz.docx";
 
@@ -16,5 +16,5 @@ function afficherCarte(){
 
         readfile($file);
         exit;
-    }
+    ?>
 
