@@ -3,7 +3,7 @@
 
     <h1>Contactez-nous</h1>
 
-    <form action="traitement.php" method="post">
+    <form action="../controllers/traitement_contact.php" method="post">
         
         <label for="nom">Nom :</label><br>
         <input type="text" id="nom" name="nom" required><br><br>
@@ -20,6 +20,9 @@
         <button type="submit">Envoyer</button>
 
     </form>
+
+
+    <img src="assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
 
 </body>
 
