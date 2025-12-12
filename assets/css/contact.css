@@ -1,0 +1,86 @@
+/* === Palette de couleurs === */
+:root {
+    --brown-primary: #A06A2C;
+    --blue-primary: #2E6FB6;
+    --white-secondary: #F4F6FA;
+    --brown-secondary: #8A4F27;
+    --blue-secondary: #3DA0D8;
+
+    --border-radius: 8px;
+    --transition: 0.3s ease;
+}
+
+/* === Style général === */
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--white-secondary);
+    color: #333;
+    padding: 20px;
+}
+
+/* === Formulaire === */
+form {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border: 2px solid var(--brown-primary);
+}
+
+label {
+    font-weight: 600;
+    color: var(--brown-primary);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--blue-primary);
+    box-shadow: 0 0 3px var(--blue-primary);
+    outline: none;
+}
+
+button {
+    background: var(--brown-primary);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 100%;
+    font-weight: 600;
+}
+
+button:hover {
+    background: var(--brown-secondary);
+}
+
+/* Optionnel : Effet au survol du formulaire */
+form:hover {
+    border-color: var(--blue-primary);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.title-localisation{
+    text-align: center;
+    padding-top: 50px;
+}

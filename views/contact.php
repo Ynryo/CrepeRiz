@@ -1,8 +1,7 @@
-
+<link rel="stylesheet" href="../assets/css/contact.css">
 <body>
 
-    <h1>Contactez-nous</h1>
-
+    
     <form action="../controllers/traitement_contact.php" method="post">
         
         <label for="nom">Nom :</label><br>
@@ -21,7 +20,7 @@
 
     </form>
 
-
+    <h1 class='title-localisation'>Localisation</h1>
     <img src="../assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
 
 </body>
