@@ -1,6 +1,10 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
+
+$page = $_GET['page'];
+// faire le switch après
+
 $url = $_SERVER['REQUEST_URI'];
 if ($url === '/' || $url === '/index.php') {
     require_once "controllers/homeController.php";
