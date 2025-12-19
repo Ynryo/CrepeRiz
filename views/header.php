@@ -12,7 +12,7 @@
 <body>
     <header>
         <div>
-            <a href="/">La Crêpe Dorée</a>
+            <a href="/">CrêpeRiz</a>
         </div>
         <nav>
             <a href="/carte">Menu</a>
