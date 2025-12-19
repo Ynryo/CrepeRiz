@@ -11,6 +11,8 @@ $page = $_GET['page'] ?? 'acceuil';
 switch($page){
     case 'acceuil':
         require_once __DIR__.'/controllers/homeController.php';
+    case 'carte':
+        require_once __DIR__.'/controllers/carteController.php';
 
 
 }
