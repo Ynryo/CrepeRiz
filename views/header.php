@@ -7,6 +7,7 @@
     <title>La Crêpe Dorée - Crêperie Artisanale</title>
     <link rel="stylesheet" href="assets/css/globals.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/home.css">
 </head>
 
 <body>
@@ -16,10 +17,9 @@
         </div>
         <nav>
             <a href="<?php $_ENV['BASE_URL'] ?>carte">Menu</a>
-            <a href="<?php $_ENV['BASE_URL'] ?>reservation">Réserver</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>about">À Propos</a>
             <a href="<?php $_ENV['BASE_URL'] ?>contact">Contact</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>reservation">Réserver</a>
+        </nav>
         </nav>
     </header>
-</body>
-
-</html>
