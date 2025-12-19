@@ -1,20 +1,44 @@
 .valeurs-creperiz {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 25px;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
-.valeurs-creperiz h2 {
-    color: #2e7d32;
-    margin-bottom: 20px;
+.valeur-bloc {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
-.valeurs-creperiz h3 {
-    margin-top: 25px;
+.valeur-bloc.reverse {
+    flex-direction: row-reverse;
+}
+
+.valeur-bloc img {
+    width: 40%;
+    max-width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.valeur-bloc p {
+    line-height: 1.7;
+}
+
+.valeur-bloc h3 {
+    margin-top: 0;
     color: #4e342e;
 }
 
-.valeurs-creperiz p {
-    line-height: 1.7;
-    margin-bottom: 15px;
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .valeur-bloc,
+    .valeur-bloc.reverse {
+        flex-direction: column;
+    }
+
+    .valeur-bloc img {
+        width: 100%;
+    }
 }
