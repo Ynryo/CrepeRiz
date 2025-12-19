@@ -16,4 +16,4 @@
 </form>
 
 <h1 class='title-localisation'>Localisation</h1>
-<img src="assets/images/localisation.png" alt="localisation">
+<img src="assets/images/localisation.png" alt="localisation" class="localisation">

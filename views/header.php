@@ -16,13 +16,13 @@
 <body>
     <header>
         <div>
-            <a href="<?php $_ENV['BASE_URL'] ?>">CrêpeRiz</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/">CrêpeRiz</a>
         </div>
         <nav>
-            <a href="<?php $_ENV['BASE_URL'] ?>carte">Menu</a>
-            <a href="<?php $_ENV['BASE_URL'] ?>about">À Propos</a>
-            <a href="<?php $_ENV['BASE_URL'] ?>contact">Contact</a>
-            <a href="<?php $_ENV['BASE_URL'] ?>reservation">Réserver</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/carte">Menu</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/about">À Propos</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/contact">Contact</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/reservation">Réserver</a>
         </nav>
         </nav>
     </header>
