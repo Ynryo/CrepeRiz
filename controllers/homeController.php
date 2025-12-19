@@ -1,2 +1,3 @@
 <?php
-require_once __DIR__.'/../views/homeview.php';
+require_once __DIR__.'/../views/header.php';
+require_once __DIR__.'/../views/valeursViews.php';
