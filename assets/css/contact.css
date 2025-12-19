@@ -5,17 +5,8 @@
     --white-secondary: #F4F6FA;
     --brown-secondary: #8A4F27;
     --blue-secondary: #3DA0D8;
-
     --border-radius: 8px;
     --transition: 0.3s ease;
-}
-
-/* === Style général === */
-body {
-    font-family: "Poppins", sans-serif;
-    background: var(--white-secondary);
-    color: #333;
-    padding: 20px;
 }
 
 /* === Formulaire === */

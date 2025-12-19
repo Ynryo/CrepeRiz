@@ -32,9 +32,12 @@
     <div class="footer-bottom">
         <p>&copy; 2025 CrepeRiz. Tous droits réservés.</p>
         <div class="footer-links">
-            <a href="#">Mentions légales</a> | 
-            <a href="#">Politique de confidentialité</a> | 
+            <a href="#">Mentions légales</a> |
+            <a href="#">Politique de confidentialité</a> |
             <a href="#">Conditions d'utilisation</a>
         </div>
     </div>
 </footer>
+</body>
+
+</html>
