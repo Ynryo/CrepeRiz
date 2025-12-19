@@ -6,13 +6,10 @@
 </head>
 <body>
 
-  <h1>Crêpe-riz</h1>
-
-  <p>
-    <a href="/carte/ouvrir" target="_blank" rel="noopener">
-      Afficher la carte
-    </a>
-  </p>
+<a href="/carte/?action=afficherCarte">
+  Afficher la carte
+</a>
 
 </body>
 </html>
+
