@@ -12,13 +12,12 @@
 <body>
     <header>
         <div>
-            <a href="/">La Crêpe Dorée</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>">La Crêpe Dorée</a>
         </div>
         <nav>
-            <a href="/carte">Menu</a>
-            <a href="/about">À Propos</a>
-            <a href="/reservation">Réserver</a>
-            <a href="/contact">Contact</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>carte">Menu</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>reservation">Réserver</a>
+            <a href="<?php $_ENV['BASE_URL'] ?>contact">Contact</a>
         </nav>
     </header>
 </body>
