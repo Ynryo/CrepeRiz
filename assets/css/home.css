@@ -1,0 +1,20 @@
+.valeurs-creperiz {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.valeurs-creperiz h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.valeurs-creperiz h3 {
+    margin-top: 25px;
+    color: #4e342e;
+}
+
+.valeurs-creperiz p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}

@@ -1,4 +1,2 @@
 <?php
-require_once "views/header.php";
-
-echo'bonjour';
+require_once __DIR__.'/../views/homeView.php';
