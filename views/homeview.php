@@ -11,17 +11,7 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="/">La Crêpe Dorée</a>
-        </div>
-        <nav>
-            <a href="/carte">Menu</a>
-            <a href="/about">À Propos</a>
-            <a href="/reservation">Réserver</a>
-            <a href="/contact">Contact</a>
-        </nav>
-    </header>
+       <?php include 'header.php'; ?>
 </body>
 
 </html>
