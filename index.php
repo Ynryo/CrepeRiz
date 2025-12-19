@@ -17,8 +17,8 @@ switch($page){
         require_once __DIR__.'/controllers/carteController.php';
         break;
     case 'contact':
-            require_once __DIR__.'/controllers/traitement_contact.php';
-            break;
+        require_once __DIR__.'/controllers/traitement_contact.php';
+        break;
 
 }
 

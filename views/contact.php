@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../assets/css/contact.css">
+<link rel="stylesheet" href="<?php $_ENV['BASE_URL'] ?>assets/css/contact.css">
 <body>
 
     
@@ -21,7 +21,7 @@
     </form>
 
     <h1 class='title-localisation'>Localisation</h1>
-    <img src="../assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
+    <img src="<?php $_ENV['BASE_URL'] ?>/assets/images/Capture d'écran 2025-12-12 094549.png" alt="localisation">
 
 </body>
 

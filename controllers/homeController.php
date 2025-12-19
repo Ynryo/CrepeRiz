@@ -1,2 +1,2 @@
 <?php
-require_once __DIR__.'/../views/homeView.php';
+require_once __DIR__.'/../views/homeview.php';
