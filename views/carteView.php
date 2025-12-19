@@ -2,38 +2,42 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Crêpe-riz – Carte</title>
-  <style>
-    body {
-      background:#111;
-      color:#f5f0e6;
-      height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      font-family: Arial, sans-serif;
-    }
-
-    a {
-      padding: 15px 30px;
-      background:#c9a25f;
-      color:#111;
-      text-decoration:none;
-      border-radius:6px;
-      font-size:1.2rem;
-      transition:0.3s;
-    }
-
-    a:hover {
-      background:#e0b86f;
-    }
-  </style>
+  <title>Crêpe-riz — Carte</title>
 </head>
 <body>
 
-<a href="/carte/?action=afficherCarte">
-  Afficher la carte
-</a>
+<h1>Crêpe-riz</h1>
+
+<p>
+  <a href="/carte/ouvrir" target="_blank" rel="noopener">
+    Afficher la carte complète
+  </a>
+</p>
+
+<hr>
+
+<h2><?= htmlspecialchars($menuDuJour['titre']) ?></h2>
+
+<p>
+  <strong>Galette :</strong><br>
+  <?= htmlspecialchars($menuDuJour['galette']) ?>
+</p>
+
+<p>
+  <strong>Crêpe :</strong><br>
+  <?= htmlspecialchars($menuDuJour['crepe']) ?>
+</p>
+
+<p>
+  <strong>Boisson :</strong><br>
+  <?= htmlspecialchars($menuDuJour['boisson']) ?>
+</p>
+
+<p>
+  <strong>Prix :</strong><br>
+  <?= htmlspecialchars($menuDuJour['prix']) ?>
+</p>
 
 </body>
 </html>
+
