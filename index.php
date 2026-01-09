@@ -15,6 +15,9 @@ switch($page){
     case 'carte':
         require_once __DIR__.'/controllers/carteController.php';
         break;
+    case 'phototheque':
+        require_once __DIR__.'/controllers/photothequController.php';
+        break;
     case 'about':
         require_once __DIR__.'/controllers/aboutController.php';
         break;
