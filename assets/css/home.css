@@ -4,6 +4,16 @@
     padding: 20px;
 }
 
+.titre-valeurs {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+
+.titre-valeurs h1{
+    font-size: 100px;
+}
+
 .valeur-bloc {
     display: flex;
     align-items: center;

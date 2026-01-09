@@ -1,5 +1,4 @@
 <section class="valeurs-creperiz">
-    <h2>Nos valeurs</h2>
 
     <div class="valeur-bloc">
         <img src="assets/images/creperie-ile-de-re.jpg" alt="Crêperie CrêpeRiz sur l’Île de Ré">
@@ -11,8 +10,12 @@
         </p>
     </div>
 
+    <div class="titre-valeurs">
+        <h1>Nos valeurs</h1>
+    </div>
+
     <div class="valeur-bloc reverse">
-        <img src="assets/images/produits-locaux.jpg" alt="Produits locaux de l’Île de Ré">
+        <img src="assets/images/producteurs.jpg" alt="Produits locaux de l’Île de Ré">
         <div>
             <h3>Une cuisine locale et de qualité</h3>
             <p>
@@ -25,7 +28,7 @@
     </div>
 
     <div class="valeur-bloc">
-        <img src="assets/images/eco-responsable.jpg" alt="Démarche éco-responsable">
+        <img src="assets/images/ecoresponsable.png" alt="Démarche éco-responsable">
         <div>
             <h3>Un engagement éco-responsable</h3>
             <p>
@@ -38,7 +41,7 @@
     </div>
 
     <div class="valeur-bloc reverse">
-        <img src="assets/images/fait-maison.jpg" alt="Crêpes faites maison">
+        <img src="assets/images/galette.jpg" alt="Crêpes faites maison">
         <div>
             <h3>Le fait maison et le savoir-faire</h3>
             <p>
@@ -51,7 +54,7 @@
     </div>
 
     <div class="valeur-bloc">
-        <img src="assets/images/convivialite.jpg" alt="Terrasse conviviale de la crêperie">
+        <img src="assets/images/terrasse.jpg" alt="Terrasse conviviale de la crêperie">
         <div>
             <h3>Convivialité et accueil</h3>
             <p>
