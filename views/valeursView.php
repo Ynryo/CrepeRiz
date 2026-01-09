@@ -65,4 +65,6 @@
             </p>
         </div>
     </div>
+    <?php require_once 'views/presentationView.php'; ?>
+
 </section>
