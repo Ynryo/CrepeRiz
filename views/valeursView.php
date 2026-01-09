@@ -1,3 +1,19 @@
+
+<!-- ================= VIDEO PRESENTATION ================= -->
+<section class="video-presentation">
+    <h2>Découvrez CrêpeRiz en vidéo</h2>
+
+    <div class="video-wrapper">
+        <iframe
+            src="https://www.youtube.com/embed/g3xd0zpfU1I"
+            title="Présentation de la crêperie CrêpeRiz"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
 <section class="valeurs-creperiz">
     <h2>Nos valeurs</h2>
 
