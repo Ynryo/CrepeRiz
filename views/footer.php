@@ -1,3 +1,15 @@
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <h2>Inscrivez-vous à notre newsletter</h2>
+        <p>Recevez nos offres exclusives et actualités directement dans votre boîte mail.</p>
+        <form class="newsletter-form" action="#" method="post">
+            <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Votre adresse email"
+                required>
+            <button type="submit">S'abonner</button>
+        </form>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-section">
