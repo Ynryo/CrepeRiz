@@ -82,12 +82,12 @@ header nav a:hover {
     transform: translateY(-1px);
 }
 
-header nav a:hover::after:not([href="reservation"]) {
+header nav a:hover::after:not([href="/CrepeRiz/reservation"]) {
     width: 100%;
 }
 
 /* Lien "Réserver" mis en avant */
-header nav a[href="reservation"] {
+header nav a[href="/CrepeRiz/reservation"] {
     padding: 8px 18px;
     border-radius: 999px;
     border: 1px solid rgba(253, 233, 200, 0.8);
@@ -96,7 +96,7 @@ header nav a[href="reservation"] {
 }
 
 /* Hover spécial pour Réserver */
-header nav a[href="reservation"]:hover {
+header nav a[href="/CrepeRiz/reservation"]:hover {
     background: rgba(253, 233, 200, 0.12);
 }
 

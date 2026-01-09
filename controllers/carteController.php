@@ -83,4 +83,4 @@ class CarteController
     }
 }
     require_once __DIR__.'/../views/carteView.php';
-
+require_once __DIR__.'/../views/footer.php';

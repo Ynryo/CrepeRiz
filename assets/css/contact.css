@@ -5,17 +5,8 @@
     --white-secondary: #F4F6FA;
     --brown-secondary: #8A4F27;
     --blue-secondary: #3DA0D8;
-
     --border-radius: 8px;
     --transition: 0.3s ease;
-}
-
-/* === Style général === */
-body {
-    font-family: "Poppins", sans-serif;
-    background: var(--white-secondary);
-    color: #333;
-    padding: 20px;
 }
 
 /* === Formulaire === */
@@ -23,6 +14,7 @@ form {
     max-width: 480px;
     margin: 0 auto;
     padding: 25px;
+    margin-top: 40px;
     background: #fff;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
@@ -75,7 +67,7 @@ button:hover {
 form:hover {
     border-color: var(--blue-primary);
 }
-img {
+.localisation {
     display: block;
     margin: 0 auto;
     padding-top: 20px;

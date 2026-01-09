@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Crêpe-riz — Carte</title>
-</head>
-<body>
-
-<h1>Crêpe-riz</h1>
+<?php require_once __DIR__ . '/../views/header.php'; ?>
 
 <p>
   <a href="/carte/ouvrir" target="_blank" rel="noopener">
@@ -39,5 +31,5 @@
 </p>
 
 </body>
-</html>
 
+</html>
