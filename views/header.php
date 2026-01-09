@@ -20,7 +20,7 @@
         </div>
         <nav>
             <a href="<?= $_ENV['BASE_URL'] ?>/carte">Menu</a>
-            <a href="<?= $_ENV['BASE_URL'] ?>/about">À Propos</a>
+            <a href="<?= $_ENV['BASE_URL'] ?>/phototheque">Photothèque</a>
             <a href="<?= $_ENV['BASE_URL'] ?>/contact">Contact</a>
             <a href="<?= $_ENV['BASE_URL'] ?>/reservation">Réserver</a>
         </nav>

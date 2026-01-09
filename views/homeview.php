@@ -11,7 +11,7 @@
 </head>
 
 <body>
-       <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 </body>
 
 </html>
@@ -21,7 +21,8 @@
     <h2>Nos valeurs</h2>
 
     <div class="valeur-bloc">
-        <img src="<?php $_ENV['BASE_URL'] ?>assets/images/creperie-ile-de-re.jpg" alt="Crêperie CrêpeRiz sur l’Île de Ré">
+        <img src="<?php $_ENV['BASE_URL'] ?>assets/images/creperie-ile-de-re.jpg"
+            alt="Crêperie CrêpeRiz sur l’Île de Ré">
         <p>
             Située sur l’Île de Ré, la crêperie <strong>CrêpeRiz</strong> est née d’une passion
             pour la cuisine authentique et le respect des produits.
@@ -82,4 +83,3 @@
         </div>
     </div>
 </section>
-
